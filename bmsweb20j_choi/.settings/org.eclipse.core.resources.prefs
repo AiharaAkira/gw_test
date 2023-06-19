@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//common/header.jsp=UTF-8
+encoding//common/userInfo.jsp=UTF-8
+encoding//view/buyConfirm.jsp=UTF-8
+encoding//view/insertIniData.jsp=UTF-8
+encoding//view/insertIntoCart.jsp=UTF-8
+encoding//view/login.jsp=UTF-8
+encoding//view/showCart.jsp=UTF-8
+encoding//view/showOrderedItem.jsp=UTF-8
+encoding//view/update.jsp=UTF-8
