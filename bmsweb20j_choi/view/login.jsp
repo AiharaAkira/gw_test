@@ -18,7 +18,7 @@
 
 
 	<%@ include file="/common/header.jsp"%>
-
+	<h1>test</h1>
 	<hr id="l_hr">
 
 	<div id="l_table">
