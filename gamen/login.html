@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>神田ユニフォーム</title>
+<style>
+@charset "UTF-8";
+
+body {
+	margin: 0;
+}
+
+#l_table {
+	margin-top: 10%;
+	margin-bottom: 20%;
+	text-align: center;
+}
+
+#l_table form table {
+	margin: 0 auto;
+	margin-bottom: 3%;
+	text-align: center;
+}
+
+.l_td {
+	background-color: #33CCFF;
+}
+
+#l_btn {
+	padding-top: 10%;
+	background-color: white;
+}
+
+#l_hr {
+	border-top: 3px solid black;
+	margin-top: 5%;
+}
+
+
+/*　jsp:include  */
+
+#h_wrap{
+
+margin-top: 5%;
+}
+
+#h_div {
+	margin: 0 atuo;
+	background-color: green;
+	text-align: center;
+	display: block;
+}
+
+#h_top_hr {
+	border-bottom: 1px solid gray;
+}
+#h_img{
+
+display: inline-block;
+width:3%;
+
+}
+
+#h_title{
+display: inline-block;
+background-color: red;
+
+
+}
+
+</style>
+
+</head>
+<body>
+	<!--jsp:include-->
+	<div id="h_wrap">
+		<div id="h_div">
+			<img id="h_img" src="./kuma.png">
+			<div id="h_title">神田ユニフォーム</div>
+		</div>
+	</div>
+	<!--jsp:include-->
+
+
+	<hr id="h_top_hr">
+
+
+
+	<div id="l_table">
+
+		<form action="#" method="POST">
+
+			<table>
+				<tr>
+					<td class="l_td">ユーザー</td>
+					<td><input name="id"></td>
+				</tr>
+				<tr>
+					<td class="l_td">パスワード</td>
+					<td><input name="pass"></td>
+				</tr>
+				<tr>
+					<td colspan="2" id="l_btn"><input type="submit" value="ログイン"></td>
+				</tr>
+			</table>
+
+		</form>
+
+	</div>
+
+</body>
+</html>
